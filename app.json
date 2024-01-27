@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Doc-Analyzer",
+    "slug": "doc-analyzer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.unloop.beta",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.unloop.beta",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/logo.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b894a7d-ac4c-4862-9eb3-5c677f0388ed"
+      }
+    },
+    "owner": "ryand1234"
+  }
+}
