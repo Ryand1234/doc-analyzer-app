@@ -64,7 +64,7 @@ function AnimatedSplashScreen({ children, image }) {
     if (isAppReady) {
       Animated.timing(animation, {
         toValue: 0,
-        duration: 1000,
+        duration: 2500,
         useNativeDriver: true,
       }).start(() => setAnimationComplete(true));
     }
@@ -75,7 +75,7 @@ function AnimatedSplashScreen({ children, image }) {
       await SplashScreen.hideAsync();
       // Load stuff
       // await Promise.all([]);
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // await new Promise(resolve => setTimeout(resolve, 1500));
     } catch (e) {
       // handle errors
     } finally {
