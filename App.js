@@ -74,7 +74,8 @@ function AnimatedSplashScreen({ children, image }) {
     try {
       await SplashScreen.hideAsync();
       // Load stuff
-      await Promise.all([]);
+      // await Promise.all([]);
+      await new Promise(resolve => setTimeout(resolve, 1500));
     } catch (e) {
       // handle errors
     } finally {
